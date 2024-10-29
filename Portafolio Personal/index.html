@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de José Daniel Rojas del Toro</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    
+    <header class = "sticky">
+        
+        <h1>José Daniel Rojas del Toro</h1>
+        <nav>
+            <div class = "centrado">
+            <div class="block">
+                <p class="overflow">
+               
+                </p>
+            </div>
+            </div>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class = "foto1" id="bienvenida">
+            <h2>Bienvenido a mi portafolio</h2>
+            <p>Hola, soy Dani, un ingeniero en computación apasionado por la electronica y los sistemas embebidos.
+                <br>
+                Para conocerme mejor hablaré más de mi mismo a lo largo de esta página.
+                <br>
+                Gracias por leer.
+            </p>
+        </section>
+
+        <section class = "foto3" id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyecto">
+                <h3>Mi primer proyecto en equipo</h3>
+                <p>Desarrollé junto a un equipo de trabajo una aplicación para un hospital que les permitía poder monitorear desde cualquier dispositivo (teléfono, computadora, etc.) a los pacientes que más lo necesitaban.
+                    <br>
+                    Esto se desarrolló debido a la mala administración que se tenía de los datos de estos pacientes; por lo tanto, se facilitó la obtención de estos.
+                </p>
+                
+            </div>
+            <div class="proyecto">
+                <h3>Mi primer proyecto personal</h3>
+                <p>Por las problemáticas que se me presentaban en el hogar decidí hacer un proyecto juntando todos mis conocimientos acerca de la computación y electrónica.
+                    <br>
+                    Este proyecto trata de un centro de control que me permita poder estar al tanto de los niveles de humedad del hogar, no solo en general, sino que podía tener este dato acerca de cualquier cuarto en la casa.
+                    <br>
+                    El centro de control lo podía conectar a mi teléfono mediante una aplicación IoT (<a href="https://www.redhat.com/es/topics/internet-of-things/what-is-iot" target="_blank" rel="noopener noreferrer">Internet of Things</a>) que tenía varias secciones que eran los cuartos a los que me quisiera dirigir y en esta me mostraba lo que yo quisiera saber dentro del cuarto como temperatura, humedad, densidad del aire, entre otras cosas.
+                </p>
+                
+            </div>
+           
+        </section>
+
+        <section id="habilidades">
+            <h2>Mis Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Diseño Gráfico</li>
+            </ul>
+        </section>
+
+        <section id="sobre-mi">
+            <h2>Conóceme</h2>
+            <p>Breve biografía sobre ti.</p>
+
+        </section>
+       
+        
+
+        <section id="contacto">
+            <h2>Ponte en Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 José Daniel Rojas del Toro. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
