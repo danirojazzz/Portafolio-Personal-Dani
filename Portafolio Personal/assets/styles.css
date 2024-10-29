@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000;
+    opacity: 1;
+}
+
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    color:#fff;
+}
+
+section {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.proyecto {
+    margin-bottom: 20px;
+    color:#ffffff ;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
+.sticky {
+    border: 3px solid plum;
+    background-color: #000;
+    color: plum;
+    padding: 10px;
+    position: sticky;
+    top: .1px;
+    font-size: 11px;
+
+}
+
+.block{
+    border: 3px dashed darkcyan;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 120px;
+    height: 120px;
+}
+.block {
+    color: #000;
+    display: block;
+    display: inline-block;
+    display: block;
+    margin: 10px;
+    padding: 10px,
+
+}
+
+.overflow {
+    background-color: rgb(165, 135, 123);
+    color: black;
+    padding: initial;
+    margin: initial;
+    width: inherit;
+    height: inherit;
+
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* overflow-x: none;
+    overflow-y: auto; */
+    overflow: auto; 
+    background-size: cover;
+    background-position: center;
+    background-image: url(yo.jpeg);
+    color:#fff;
+}
+.foto1 {
+    background-image: url(home-img3.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #9e3a3a;
+    width: 2000px;
+    height: max-content;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden;
+
+}
+
